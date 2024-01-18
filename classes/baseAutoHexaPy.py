@@ -12,7 +12,7 @@ class BaseAutoHexaPy(ConfigAutoHexaPy):
     def go_to_path():
         path = os.getcwd()
         path_list = path.split("AutoHexaPy")
-        path = path_list[0] + "AutoHexaPy"
+        path = path_list[0]
         os.chdir(path)
         return path
 
@@ -81,7 +81,8 @@ class BaseAutoHexaPy(ConfigAutoHexaPy):
 
     def get_models(self):
         self.go_to_api_path("domain/models")
-        archivos_en_carpeta = os.listdir("")
+        print(os.getcwd())
+        archivos_en_carpeta = os.listdir(".")
         archivos = []
         for nombre_archivo in archivos_en_carpeta:
             if nombre_archivo.__contains__("model.py"):

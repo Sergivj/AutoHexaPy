@@ -45,11 +45,11 @@ La tecnología en la que nos hemos apoyado, ha sido principalmente:
 
     #### Crear un nuevo proyecto
    ```sh
-    python autohexapy.py --new-project
+    python autohexapy.py new-project
       ``` 
     #### Crear un nuevo modelo
    ```sh
-    python autohexapy.py --create-model
+    python autohexapy.py create-model
    ```
    
 
