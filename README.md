@@ -31,6 +31,29 @@ La tecnología en la que nos hemos apoyado, ha sido principalmente:
 [![Django][Django-img]][Django-url]
 
 
+### Como utilizar AutoHexaPy
+
+1. Clona el repositorio
+   ```sh
+   git clone https://github.com/Sergivj/AutoHexaPy.git
+   ```
+2. Entra dentro del directorio
+   ```sh
+    cd AutoHexaPy
+      ```
+3. Ejecuta los siguientes comandos según tus necesidades
+
+    #### Crear un nuevo proyecto
+   ```sh
+    python autohexapy.py --new-project
+      ``` 
+    #### Crear un nuevo modelo
+   ```sh
+    python autohexapy.py --create-model
+   ```
+   
+
+
 <!-- LICENSE -->
 ## Licencia
 

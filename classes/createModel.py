@@ -1,5 +1,5 @@
-from AutoHexaPy.classes.baseAutoHexaPy import BaseAutoHexaPy
-from AutoHexaPy.classes.createHexaComponents import CreateHexaComponents
+from classes.baseAutoHexaPy import BaseAutoHexaPy
+from classes.createHexaComponents import CreateHexaComponents
 
 
 class CreateModel(BaseAutoHexaPy):

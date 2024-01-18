@@ -1,4 +1,4 @@
-from AutoHexaPy.classes.baseAutoHexaPy import BaseAutoHexaPy
+from classes.baseAutoHexaPy import BaseAutoHexaPy
 import re
 
 

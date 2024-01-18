@@ -1,7 +1,7 @@
 import fileinput
 import os
 
-from AutoHexaPy.classes.configAutoHexaPy import ConfigAutoHexaPy
+from classes.configAutoHexaPy import ConfigAutoHexaPy
 
 
 class BaseAutoHexaPy(ConfigAutoHexaPy):

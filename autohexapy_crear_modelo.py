@@ -1,7 +1,7 @@
-from AutoHexaPy.classes.admin import Admin
-from AutoHexaPy.classes.createModel import CreateModel
-from AutoHexaPy.classes.baseAutoHexaPy import BaseAutoHexaPy
-from AutoHexaPy.classes.baseCreateModel import BaseCreateProject
+from classes.admin import Admin
+from classes.createModel import CreateModel
+from classes.baseAutoHexaPy import BaseAutoHexaPy
+from classes.baseCreateModel import BaseCreateProject
 
 # Crear archivos
 BaseAutoHexaPy().go_to_api_path("domain/models")
