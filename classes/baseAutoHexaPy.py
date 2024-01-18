@@ -7,13 +7,17 @@ from classes.configAutoHexaPy import ConfigAutoHexaPy
 class BaseAutoHexaPy(ConfigAutoHexaPy):
     def __init__(self):
         super().__init__()
+        self.path = ""
 
-    @staticmethod
-    def go_to_path():
+    def go_to_path(self):
         path = os.getcwd()
-        path_list = path.split("AutoHexaPy")
+        if "AutoHexaPy" in path:
+            path_list = path.split("AutoHexaPy")
+        else:
+            path_list = path.split(self.nombre_proyecto)
         path = path_list[0]
         os.chdir(path)
+        self.path = path
         return path
 
     def go_to_base_project_path(self):
