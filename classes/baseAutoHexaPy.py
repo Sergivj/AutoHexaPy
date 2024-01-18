@@ -81,7 +81,7 @@ class BaseAutoHexaPy(ConfigAutoHexaPy):
 
     def get_models(self):
         self.go_to_api_path("domain/models")
-        archivos_en_carpeta = os.listdir(".")
+        archivos_en_carpeta = os.listdir("")
         archivos = []
         for nombre_archivo in archivos_en_carpeta:
             if nombre_archivo.__contains__("model.py"):
