@@ -90,4 +90,4 @@ BaseAutoHexaPy().delete_file("db.sqlite3")
 BaseAutoHexaPy().migrations()
 Admin().create_super_user()
 
-BaseAutoHexaPy().runserver()
+#BaseAutoHexaPy().runserver()
